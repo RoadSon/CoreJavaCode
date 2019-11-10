@@ -1,4 +1,4 @@
-package CoreJava.Chapter3;
+package CoreJava.Chapter3.Code;
 
 import java.io.IOException;
 import java.io.PrintWriter;
