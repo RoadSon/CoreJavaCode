@@ -121,6 +121,7 @@ for(int i =0;i<3;i++) {
 }
 ```
 # 9. BigDecimal
+BigDecimal(double val)构造函数时仍会存在精度丢失问题，建议使用BigDecimal(String val)。
 ```java
 //9. BigDecimal
 double i = 2-1.1;
@@ -144,6 +145,7 @@ a = new int[] {4,5,6};
 System.out.println(Arrays.toString(a));//[4,5,6]
 int[][] b = {{1,2,3},{4,5,6}};
 System.out.println(Arrays.deepToString(b));//[[1, 2, 3], [4, 5, 6]]
+
 //2) Arrays.copyOf
 int[] c = {1,2,3};
 int[] d = c;//d和c地址相同
@@ -154,6 +156,7 @@ System.out.println(c[0]);//如果是d=c，则输出0；如果是用copyOf方法�
 int[][] e = Arrays.copyOf(b, b.length);
 e[0][0] = 0;
 System.out.println(b[0][0]);//输出为0
+
 //3) Arrays.equals
 int[] t1 = {1,2,3};
 int[] t2 = {1,2,3};
