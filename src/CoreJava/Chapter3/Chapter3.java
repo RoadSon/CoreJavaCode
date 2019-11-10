@@ -124,6 +124,7 @@ public class Chapter3 {
 		System.out.println(Arrays.toString(a));//[4,5,6]
 		int[][] b = {{1,2,3},{4,5,6}};
 		System.out.println(Arrays.deepToString(b));//[[1, 2, 3], [4, 5, 6]]
+		
 		//2) Arrays.copyOf
 		int[] c = {1,2,3};
 		int[] d = c;//d和c地址相同
@@ -134,6 +135,7 @@ public class Chapter3 {
 		int[][] e = Arrays.copyOf(b, b.length);
 		e[0][0] = 0;
 		System.out.println(b[0][0]);//输出为0
+		
 		//3) Arrays.equals
 		int[] t1 = {1,2,3};
 		int[] t2 = {1,2,3};
