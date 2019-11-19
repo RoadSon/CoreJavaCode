@@ -1,4 +1,4 @@
-package CoreJava.AbstractClass;
+package CoreJava.Chapter6.Code;
 
 import java.util.ArrayList;
 import java.util.Iterator;
